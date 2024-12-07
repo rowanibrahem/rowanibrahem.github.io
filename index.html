@@ -34,7 +34,7 @@
 
         <script>
             // The value below is injected by flutter build, do not touch.
-            const serviceWorkerVersion = "808950770";
+            const serviceWorkerVersion = "653189378";
         </script>
         <!-- This script adds the flutter initialization JS code -->
         <script src="flutter.js" defer></script>
@@ -75,11 +75,13 @@
                 });
             });
         </script>
-        <script>
-            window.addEventListener('flutter-first-frame', function () {
-                var el = document.getElementsByClassName('container')[0];
-                el.remove();
-            });
-        </script>
+        <!-- <script> -->
+            <!-- // window.addEventListener('flutter-first-frame', function () {
+                 var el = document.getElementsByClassName('container')[0];
+                 if (el) {
+                   el.remove();
+               }
+            }); -->
+        <!--  </script> -->
     </body>
 </html>
